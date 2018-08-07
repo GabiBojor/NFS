@@ -57,9 +57,10 @@ a:focus, a:visited {
 
 /*footer*/
 .footer-wrapper{
-	background: #343434;
-	color: #ccc;
+	background: #000000;
+	color: #fff;
 	padding: 20px 0;
+	font-size: 13px;
 }
 
 
