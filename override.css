@@ -40,7 +40,7 @@ a:focus, a:visited {
     z-index: 9;
 }
 .scrolled-top{
-	background: linear-gradient(red, yellow);
+	 background: linear-gradient(rgba(0,0,0,0.85), rgba(255,0,0,0));
 	transition: 0.5s all ease;
 }
 .top-wrap{
