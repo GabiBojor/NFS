@@ -59,10 +59,20 @@ a:focus, a:visited {
 .footer-wrapper{
 	background: #000000;
 	color: #fff;
-	padding: 20px 0;
+	padding: 25px 0;
 	font-size: 13px;
 }
-
+.social-media {
+	margin-bottom: 10px;
+}
+.social-media a{
+	color: #cccccc;
+	font-size: 26px;
+	margin: 0 15px 0 0;
+}
+.social-media a:last-child{
+	margin-right: 0;
+}
 
 
 /*------
@@ -103,6 +113,32 @@ ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 /*------
 CUSTOM ELEMENTS
 ------*/
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.custom-container{
+	width: 1140px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.pad{
+	padding: 100px;
+}
+.custom_title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	line-height: 46px;
+	color: #212121;
+	text-transform: uppercase;
+}
+.title_border{
+	display: block;
+	margin: 20px auto 0; 
+	width: 65px;
+	height: 2px;
+	background: #ff8b38;
+}
 
 /*------
 RESPONSIVE CSS
