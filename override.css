@@ -1,0 +1,165 @@
+/*------
+GENERAL ELEMENTS
+------*/
+html, body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   line-height: 26px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+a {
+    outline: none;
+}
+
+a:hover {
+    outline: none;
+}
+a:focus, a:visited {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*top part*/
+.container-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    transition: 0.5s all ease;
+    z-index: 9;
+}
+.scrolled-top{
+	background: rgba(0,0,0,0.65);
+	transition: 0.5s all ease;
+}
+.top-wrap{
+	width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.logo img{
+	width: 150px;
+}
+
+
+
+/*footer*/
+.footer-wrapper{
+	background: #343434;
+	color: #ccc;
+	padding: 20px 0;
+}
+
+
+
+/*------
+MAIN NAV
+------*/
+#main_nav {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+ul#nav > li > a, ul#nav_mobile > li > a {
+color: #fff;
+text-transform: uppercase;
+font-weight: 300;
+}
+ul#nav > li:last-child > a, ul#nav_mobile > li:last-child > a{
+	padding-right: 0;
+}
+ul#nav > li, ul#nav_mobile > li {
+
+}
+
+ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
+
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header, .container-fluid{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/*------
+CUSTOM ELEMENTS
+------*/
+
+/*------
+RESPONSIVE CSS
+------ */
+
+@media (max-width: 1440px){
+
+}
+@media (max-width: 1280px){
+
+}
+@media (max-width: 1024px){
+  
+}
+@media (max-width: 991px){
+  
+}
+@media (max-width: 980px){
+  
+}
+@media (max-width: 860px){
+
+}
+@media (max-width: 768px){ 
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 640px){
+
+}
+
+@media (max-width: 480px){
+ 
+}
+@media (max-width: 320px){
+ 
+}
