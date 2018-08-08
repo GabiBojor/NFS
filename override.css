@@ -2,7 +2,7 @@
 GENERAL ELEMENTS
 ------*/
 html, body {
-   font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
    font-size: 16px;
    line-height: 26px;
 }
@@ -85,7 +85,7 @@ MAIN NAV
 }
 ul#nav > li > a, ul#nav_mobile > li > a {
 color: #fff;
-text-transform: uppercase;
+text-transform: capitalize;
 font-weight: 300;
 }
 ul#nav > li:last-child > a, ul#nav_mobile > li:last-child > a{
@@ -113,6 +113,7 @@ ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 /*------
 CUSTOM ELEMENTS
 ------*/
+
 .raleway{
 	font-family: 'Raleway', sans-serif;
 }
@@ -122,7 +123,10 @@ CUSTOM ELEMENTS
 	margin: 0 auto;
 }
 .pad{
-	padding: 100px;
+	padding: 100px 0;
+}
+.row{
+	margin: 0;
 }
 .custom_title{
 	text-align: center;
@@ -130,6 +134,7 @@ CUSTOM ELEMENTS
 	font-size: 36px;
 	line-height: 46px;
 	color: #212121;
+	margin-bottom: 40px;
 }
 .title_border{
 	display: block;
@@ -138,7 +143,132 @@ CUSTOM ELEMENTS
 	height: 2px;
 	background: #ff8b38;
 }
+.small-text{
+	color: #86878b;
+	font-size: 14px;
+}
+.btn{
 
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none !important;
+}
+.white-btn {
+		text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin-top: 30px;
+    padding: 10px 25px;
+}
+.orange-btn{
+	background: #ff8b38;
+	color: #fff;
+}
+.home_banner .v-align {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.home_banner .v-align img {
+    width: 250px;
+}
+.home_banner .v-align h1{
+	color: #fff;
+	font-size: 36px;
+	line-height: 46px;
+	margin: 20px 0 30px;
+}
+.home_banner .v-align .title_border {
+    background: #fff;
+    margin: 30px 0 0;
+}
+.home_banner .v-align > span{
+	opacity: 0.8;
+	width: 455px;
+	max-width: 100%;
+	display: block;
+	color: #fff;
+	font-weight: 200;
+}
+.gray-bg{
+	background: #f5f5f5;
+}
+.products-menu a {
+    margin-bottom: 1px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background: #333333;
+    display: block;
+    padding: 15px 12px;
+    text-align: center;
+    width: 100px;
+}
+.products-menu a:hover, .products-menu a.active_btn{
+	text-decoration: none;
+	background: #ff8b38;
+}
+.content-products{
+	display: none;
+}
+#product1.content-products {
+    display: block;
+}
+.content-products  b{
+	color: #000000;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.content-products .btn{
+	margin-top: 30px;
+}
+.b2-solutions{
+	position: relative;
+	color: #fff;
+}
+.b2-solutions .custom_title{
+	color: #fff;
+}
+.b2-solutions .title_border{
+	background: #fff;
+}
+.b2-solutions .v-align > span{
+	font-weight: lighter;
+	display: block;
+	opacity: 0.8;
+}
+.contact-form {
+    width: 980px;
+    max-width: 100%;
+    margin: 60px auto 0;
+}
+.contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    border-width: 0 0 1px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-form input:last-child{
+	margin-bottom: 0;
+}
+.contact-form textarea {
+    min-height: 161px;
+    margin-bottom: 0;
+}
+.contact-form .submit_form {
+    background: #ff9b51;
+    color: #fff;
+    border-radius: 5px;
+    margin: 40px auto 0;
+    width: auto;
+    text-align: center;
+    padding: 6px 12px;
+    display: inline-block;
+}
 /*------
 RESPONSIVE CSS
 ------ */

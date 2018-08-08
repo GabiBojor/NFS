@@ -32,4 +32,6 @@ li.has_submenu:hover ul {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+		left: 0;
+	right: 0;
 }
