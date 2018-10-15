@@ -113,10 +113,11 @@ min-width: 200px;
 background: #fff;
 color: #000;
 left: 15px;
-}
-ul#nav > li ul, ul#nav_mobile > li ul{
+border: 1px solid #ccc;
 list-style-type: none;
+padding-left: 15px;
 }
+
 ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 
 }
