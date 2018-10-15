@@ -52,6 +52,12 @@ a:focus, a:visited {
 .logo img{
 	width: 150px;
 }
+#inner-content .container-top{
+	background: #ff8b38;
+}
+#inner-content .container-top .logo img{
+	width: 100px;
+}
 
 
 
@@ -78,10 +84,13 @@ a:focus, a:visited {
 /*------
 MAIN NAV
 ------*/
+#inner-content  #main_nav{
+top: -4px;
+}
 #main_nav {
     position: absolute;
     right: 0;
-    top: 12px;
+    top: 8px;
 }
 ul#nav > li > a, ul#nav_mobile > li > a {
 color: #fff;
@@ -97,9 +106,13 @@ ul#nav > li, ul#nav_mobile > li {
 }
 ul#nav > li ul, ul#nav_mobile > li ul{
 position: absolute;
-min-width: 300px;
+min-width: 200px;
 background: #fff;
 color: #000;
+left: 15px;
+}
+ul#nav > li ul, ul#nav_mobile > li ul{
+list-style-type: none;
 }
 ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 
@@ -119,7 +132,9 @@ ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 /*------
 CUSTOM ELEMENTS
 ------*/
-
+#inner-content {
+    padding-top: 84px;
+}
 .raleway{
 	font-family: 'Raleway', sans-serif;
 }
@@ -274,6 +289,57 @@ CUSTOM ELEMENTS
     text-align: center;
     padding: 6px 12px;
     display: inline-block;
+}
+/*-- products --*/
+.products > h1 {
+    margin: 0 auto;
+    font-size: 44px;
+    font-weight: bold;
+    color: #3b3939;
+    position: relative;
+    line-height: 35px;
+}
+.products > h1::before {
+    position: absolute;
+    background: #FF8B38;
+    width: 660px;
+    max-width: 100%;
+    height: 3px;
+    content: '';
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.our_products{
+	margin-top: 80px;
+}
+.our_products > div {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 30px 0;
+}
+.our_products > div:nth-child(3n){
+	margin-right: 0;
+}
+.product-info {
+    background: #ebebeb;
+    padding: 35px 30px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.product-title {
+    color: #3b3939;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.read-more {
+    text-align: center;
+    padding: 20px 15px;
+    color: #fff;
+    font-size: 27px;
+    background: #FF8B38;
 }
 /*------
 RESPONSIVE CSS
