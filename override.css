@@ -10,14 +10,17 @@ html, body {
 
 
 a {
-    outline: none;
+    outline: none;]
+     text-decoration: none;
 }
 
 a:hover {
     outline: none;
+    text-decoration: none;
 }
 a:focus, a:visited {
     outline: none;
+     text-decoration: none;
 }
 
 
@@ -341,6 +344,9 @@ CUSTOM ELEMENTS
     font-size: 24px;
     display: block;
     background: #FF8B38;
+}
+.read-more:hover{
+	color: #000;
 }
 /*------
 RESPONSIVE CSS
