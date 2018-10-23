@@ -55,10 +55,10 @@ a:focus, a:visited {
 .logo img{
 	width: 150px;
 }
-#inner-content .container-top{
+.orange-top .container-top{
 	background: #ff8b38;
 }
-#inner-content .container-top .logo img{
+.orange-top .container-top .logo img{
 	width: 100px;
 }
 
@@ -87,7 +87,7 @@ a:focus, a:visited {
 /*------
 MAIN NAV
 ------*/
-#inner-content  #main_nav{
+.orange-top  #main_nav{
 top: -4px;
 }
 #main_nav {
@@ -136,7 +136,7 @@ ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 /*------
 CUSTOM ELEMENTS
 ------*/
-#inner-content {
+.orange-top {
     padding-top: 84px;
 }
 .raleway{
@@ -341,6 +341,23 @@ CUSTOM ELEMENTS
 }
 .read-more:hover{
 	color: #000;
+}
+/*-- about --*/
+.about_banner .v-align {
+    color: #fff;
+    text-align: center;
+}
+.about_banner .v-align h1{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-section img {
+    width: auto;
+    display: block;
+    margin: 0 auto 60px;
 }
 /*------
 RESPONSIVE CSS
