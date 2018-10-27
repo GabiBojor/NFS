@@ -10,7 +10,7 @@ html, body {
 
 
 a {
-    outline: none;]
+    outline: none;
      text-decoration: none;
 }
 
@@ -343,11 +343,11 @@ CUSTOM ELEMENTS
 	color: #000;
 }
 /*-- about --*/
-.about_banner .v-align {
+.custom-banner .v-align {
     color: #fff;
     text-align: center;
 }
-.about_banner .v-align h1{
+.custom-banner .v-align h1{
     margin: 0 auto;
     color: #fff;
     font-size: 58px;
@@ -358,6 +358,17 @@ CUSTOM ELEMENTS
     width: auto;
     display: block;
     margin: 0 auto 60px;
+}
+/*-- gallery --*/
+.gallery > a {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.gallery > a:nth-child(4n) {
+    margin-right: 0;
 }
 /*------
 RESPONSIVE CSS
