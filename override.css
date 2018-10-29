@@ -295,17 +295,6 @@ CUSTOM ELEMENTS
     display: inline-block;
 }
 /*-- products --*/
-.products > h1 {
-    margin: 0 auto;
-    font-size: 44px;
-    font-weight: bold;
-    color: #3b3939;
-    position: relative;
-    line-height: 35px;
-    border-bottom: 3px solid #FF8B38;
-    padding-bottom: 45px;
-    display: inline-block;
-}
 
 .our_products{
 	margin-top: 45px;
@@ -341,6 +330,19 @@ CUSTOM ELEMENTS
 }
 .read-more:hover{
 	color: #000;
+}
+/*-- details --*/
+.product-name {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+.details-btn {
+    background: #FF8B38;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 6px 25px;
+    color: #fff;
 }
 /*-- about --*/
 .custom-banner .v-align {
