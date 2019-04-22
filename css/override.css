@@ -41,9 +41,10 @@ a:focus, a:visited {
     padding: 20px 0;
     transition: 0.5s all ease;
     z-index: 9;
+    background: rgba(74, 180, 63, 1);
 }
 .scrolled-top{
-	 background: linear-gradient(rgba(0,0,0,0.85), rgba(255,0,0,0));
+	 background: rgba(74, 180, 63, 0.8);
 	transition: 0.5s all ease;
 }
 .top-wrap{
@@ -55,11 +56,11 @@ a:focus, a:visited {
 .logo img{
 	width: 150px;
 }
-.orange-top .container-top{
-	background: #ff8b38;
-}
-.orange-top .container-top .logo img{
-	width: 100px;
+.map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
 }
 
 
@@ -87,13 +88,12 @@ a:focus, a:visited {
 /*------
 MAIN NAV
 ------*/
-.orange-top  #main_nav{
-top: -4px;
-}
+
 #main_nav {
     position: absolute;
-    right: 0;
+    right: 50%;
     top: 8px;
+    margin-right: -300px;
 }
 ul#nav > li > a, ul#nav_mobile > li > a {
 color: #fff;
@@ -136,14 +136,12 @@ ul#nav > li > a:hover, ul#nav_mobile > li > a:hover {
 /*------
 CUSTOM ELEMENTS
 ------*/
-.orange-top {
-    padding-top: 84px;
-}
+
 .raleway{
 	font-family: 'Raleway', sans-serif;
 }
 .custom-container{
-	width: 1140px;
+	width: 1024px;
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -166,104 +164,26 @@ CUSTOM ELEMENTS
 	margin: 20px auto 0; 
 	width: 65px;
 	height: 2px;
-	background: #ff8b38;
+	background: #4ab43f;
 }
 .small-text{
 	color: #86878b;
 	font-size: 14px;
 }
 .btn{
-
 	font-size: 15px;
 	font-weight: 600;
 	text-decoration: none !important;
 }
-.white-btn {
-		text-transform: uppercase;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 0;
-    margin-top: 30px;
-    padding: 10px 25px;
-}
-.orange-btn{
+.green-btn{
 	background: #ff8b38;
 	color: #fff;
 }
-.home_banner .v-align {
-    width: 1140px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.home_banner .v-align img {
-    width: 250px;
-}
-.home_banner .v-align h1{
-	color: #fff;
-	font-size: 36px;
-	line-height: 46px;
-	margin: 20px 0 30px;
-}
-.home_banner .v-align .title_border {
-    background: #fff;
-    margin: 30px 0 0;
-}
-.home_banner .v-align > span{
-	opacity: 0.8;
-	width: 455px;
-	max-width: 100%;
-	display: block;
-	color: #fff;
-	font-weight: 200;
-}
+
 .gray-bg{
 	background: #f5f5f5;
 }
-.products-menu a {
-    margin-bottom: 1px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    background: #333333;
-    display: block;
-    padding: 15px 12px;
-    text-align: center;
-    width: 100px;
-}
-.products-menu a:hover, .products-menu a.active_btn{
-	text-decoration: none;
-	background: #ff8b38;
-}
-.content-products{
-	display: none;
-}
-#product1.content-products {
-    display: block;
-}
-.content-products  b{
-	color: #000000;
-	display: block;
-	font-size: 20px;
-	margin-bottom: 15px;
-}
-.content-products .btn{
-	margin-top: 30px;
-}
-.b2-solutions{
-	position: relative;
-	color: #fff;
-}
-.b2-solutions .custom_title{
-	color: #fff;
-}
-.b2-solutions .title_border{
-	background: #fff;
-}
-.b2-solutions .v-align > span{
-	font-weight: lighter;
-	display: block;
-	opacity: 0.8;
-}
+
 .contact-form {
     width: 980px;
     max-width: 100%;
@@ -285,7 +205,7 @@ CUSTOM ELEMENTS
     margin-bottom: 0;
 }
 .contact-form .submit_form {
-    background: #ff9b51;
+    background: #4ab43f;
     color: #fff;
     border-radius: 5px;
     margin: 40px auto 0;
