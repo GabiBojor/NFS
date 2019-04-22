@@ -92,8 +92,8 @@ MAIN NAV
 #main_nav {
     position: absolute;
     right: 50%;
-    top: 8px;
-    margin-right: -300px;
+    top: 10px;
+    margin-right: -240px;
 }
 ul#nav > li > a, ul#nav_mobile > li > a {
 color: #fff;
