@@ -158,6 +158,7 @@ CUSTOM ELEMENTS
 	line-height: 46px;
 	color: #212121;
 	margin-bottom: 40px;
+    text-transform: uppercase;
 }
 .title_border{
 	display: block;
