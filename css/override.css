@@ -184,7 +184,35 @@ CUSTOM ELEMENTS
 .gray-bg{
 	background: #f5f5f5;
 }
-
+.home_products{
+    margin-top: 100px;
+}
+.home_products > a {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    padding: 15px 40px 15px 15px;
+    margin-right: 30px;
+    text-align: left;
+    min-width: 160px;
+}
+.home_products > a:nth-child(n-6){
+    background: #4ab43f;
+    margin-bottom: 30px;
+}
+.home_products > a:nth-child(n+6){
+    background: #333333;
+}
+.home_products > a:nth-child(n-6):hover{
+    
+     background: #333333;
+}
+.home_products > a:nth-child(n+6):hover{
+   background: #4ab43f;
+}
+.home_products > a:nth-child(5n){
+    margin-right: 0;
+}
 .contact-form {
     width: 980px;
     max-width: 100%;
